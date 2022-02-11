@@ -14,7 +14,7 @@ RuntimeGeneratedFunctions.init(@__MODULE__)
 
 export FSPSystem, NaiveIndexHandler, ReducingIndexHandler,
        conservedquantities, conservationlaws,
-       reducedspecies, elidedspecies
+       reducedspecies, elidedspecies, create_sparsematrix
 
 # Check for Catalyst v9.0
 if isdefined(Catalyst, :reactioncomplexmap)
