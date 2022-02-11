@@ -1,6 +1,6 @@
 using FiniteStateProjection
 using DifferentialEquations
-using PyPlot
+# using PyPlot
 
 ##
 
